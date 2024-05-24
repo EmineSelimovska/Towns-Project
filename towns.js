@@ -1,6 +1,5 @@
 $(document).ready(function () {
     $('#btnAdd').click(addTown);
-    $('#btnShuffle').click(shuffleTowns);
     
 });
 
