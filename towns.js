@@ -12,8 +12,6 @@ function addTown() {
 }
 
 
-<<<<<<< HEAD
-=======
 function showMessage(msg) {
     $('#result').text(msg).css("display", "block");
     setTimeout(function () {
@@ -21,7 +19,6 @@ function showMessage(msg) {
     }, 3000);
 }
 
->>>>>>> 6c84db5ac95024d354d1eaa0b69de9297f20fbd1
 function shuffleTowns() {
     let towns = $('#towns option').toArray();
     $('#towns').empty();
