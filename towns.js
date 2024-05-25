@@ -12,13 +12,6 @@ function addTown() {
 }
 
 
-function showMessage(msg) {
-    $('#result').text(msg).css("display", "block");
-    setTimeout(function () {
-        $('#result').hide('blind', {}, 500);
-    }, 3000);
-}
-
 function shuffleTowns() {
     let towns = $('#towns option').toArray();
     $('#towns').empty();
